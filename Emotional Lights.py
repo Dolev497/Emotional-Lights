@@ -91,7 +91,7 @@ cursor.executemany("INSERT INTO Train(Sample, Class) VALUES(?, ?)", values)
 print([x for x in cursor.execute("SELECT PointID FROM Train ORDER BY PointID DESC LIMIT 1")])
 '''
 
-#Cohe = cohere.Client("Z4qwucm7otTNnqGZkjZoKH1PrO7e1tQOXl1eXr79")
+#Cohe = cohere.Client("CoKey")
 #Train_Set = CsvDataset(r"C:\Users\dolev\downloads\trai2n.csv", ",")
 
 
