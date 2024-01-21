@@ -7,7 +7,11 @@ from copy import deepcopy
 from numpy import dot
 from numpy.linalg import norm
 import minitest as mini
-openai.api_key = "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"
+import dotenv
+
+dotenv.load_dotenv()
+
+openai.api_key = os.environ['GPTKEY']
 TrackID = "4RJdwSqHapVcW5DaRtTkv0"
 
 
